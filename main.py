@@ -73,7 +73,7 @@ def calc_lp(signal, low, high):
 
 
 X = nr.QRS_to_Noise('114001_ECG', sRate=250, num_threads=8, 
-                path_raw='/ECG/atsense/original',
+                path_raw='/ECG/original',
                 path_input='/home/Docker/Python/ECG/dl_inputs',
                 path_model='/home/Docker/Python/ECG/models')
 
