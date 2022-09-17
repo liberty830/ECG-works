@@ -11,7 +11,9 @@ Implemetation of cores steps to analyze ECG signals especially for wearable ECG 
                      
 References: 
 
-1. https://www.robots.ox.ac.uk/~gari/teaching/cdt/A3/readings/ECG/Pan+Tompkins.pdf
-2. https://www.scitepress.org/papers/2010/27427/27427.pdf
-3. https://github.com/berndporr/py-ecg-detectors
-                    
+1. QRS detection method 1: https://www.robots.ox.ac.uk/~gari/teaching/cdt/A3/readings/ECG/Pan+Tompkins.pdf
+2. QRS detection method 2: https://www.scitepress.org/papers/2010/27427/27427.pdf
+3. QRS detection libary: https://github.com/berndporr/py-ecg-detectors
+4. Open source wearable ECG patch data: https://physionet.org/content/butqdb/1.0.0/
+5. Open source holter ECG data: https://physionet.org/content/mitdb/1.0.0/
+                   
