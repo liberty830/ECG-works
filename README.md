@@ -1,4 +1,4 @@
-Implemetation of cores steps to analyze ECG signals especially for wearable ECG devices which includes a variety of noise sources.
+Implemetation of necessary steps to analyze ECG signals especially for wearable ECG devices which includes a variety of noise sources.
 
 1. Noise Removal: There are many sources of noise for the wearable ECG patch compared to the Holter which is normally used in the hospitals.
                   Those noises are not effectively removed with the traditional methods, such as DWT which uses frequency bands to filter.
