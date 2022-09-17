@@ -72,14 +72,14 @@ def calc_lp(signal, low, high):
     return upper - baseline
 
 
-X = nr.QRS_to_Noise('C600000389', sRate=250, num_threads=29, 
-                path_raw='/home/cbn-gpu08/Docker/R/ECG/atsense/original',
-                path_input='/home/cbn-gpu08/Docker/Python/ECG/dl_inputs',
-                path_model='/home/cbn-gpu08/Docker/Python/ECG/models')
+X = nr.QRS_to_Noise('114001_ECG', sRate=250, num_threads=8, 
+                path_raw='/ECG/atsense/original',
+                path_input='/home/Docker/Python/ECG/dl_inputs',
+                path_model='/home/Docker/Python/ECG/models')
 
 X.wfdb_to_npy()
 
-X.save_dl_inputs('C600000389.npy')
+X.save_dl_inputs('114001_ECG.npy')
 
 X.noise_removal('light')
 
